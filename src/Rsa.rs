@@ -26,7 +26,11 @@ fn decrypt(n : i32, eA : i32, eB : i32, c : i32){
     
   println!("Calculate m");
 }
+
+fn chineseRemainder(){
     
+    
+}
     
 fn remainder() -> i32 {
     

@@ -5,23 +5,30 @@ pub struct RemainderClassRing {
 
 impl RemainderClasRing {
   fn units() -> {
-  
+    return ;
   
   }
   
+  fn caleyTablePlus() -> {
+    return cayleyTable(|a : i32, b: i32| a + b);
+  }
+  
+  fn caleyTableMult() -> {
+    return cayleyTable(|a : i32, b: i32| a * b));
+  }
   
   fn order() -> {
-  
+    return cayleyTable();
   
   }
   
   fn subgroups() -> {
-  
+    return ;
   
   }
   
   fn generators() -> {
-  
+    return ;
   
   }
 
@@ -29,8 +36,8 @@ impl RemainderClasRing {
 
 
 
-fn caleyTable() -> {
-
+fn caleyTable(op : impl Fn(i32, i32) -> i32) -> {
+  return ;
 }
 
 

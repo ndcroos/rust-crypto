@@ -1,5 +1,5 @@
 pub struct RemainderClassRing {
-
+  n : i32;
 
 }
 
@@ -32,6 +32,12 @@ impl RemainderClasRing {
   
   }
 
+  fn overline(str : String) -> String {
+    for c in str.chars() { 
+    
+    }
+    return ;
+  }
 }
 
 

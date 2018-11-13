@@ -29,16 +29,15 @@ fn decrypt(n : i32, eA : i32, eB : i32, c : i32){
 
 fn chineseRemainder(){
     
-    
+    return ;
 }
     
 fn remainder() -> i32 {
     
-    
+    return ;
 }
     
 fn bezoutInverse() -> i32 {
     
-    
-    
+    return ;
 }

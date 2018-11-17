@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 pub struct RemainderClassRing {
   n : i32;
 
@@ -23,8 +25,24 @@ impl RemainderClasRing {
   }
   
   fn subgroups() -> {
+    
+    let content = units();
+    
+    let content_mapped = HashMap::new();
+    
+    for &unit in &content {
+      let start = (unit * unit) % n;
+      distinct = distinctPowersUnits(content, {start}, start);
+      
+    }
+    
     return ;
   
+  }
+
+  fn distinctPowersUnits(,,) -> {
+    
+    return ;  
   }
   
   fn generators() -> {
